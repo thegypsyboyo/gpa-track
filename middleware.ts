@@ -7,6 +7,7 @@ export default authMiddleware({
     publicRoutes: [
         '/',
         '/api/webhook',
+        '/all-questions',
     ],
     ignoredRoutes: ['/api/webhook']
 });
