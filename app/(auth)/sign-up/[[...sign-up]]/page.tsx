@@ -1,4 +1,9 @@
+import React from 'react'
 
-export default function Page() {
-  return <div >Sign up</div>;
+const page = () => {
+  return (
+    <div>page</div>
+  )
 }
+
+export default page

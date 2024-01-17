@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const page = () => {
+const Home = () => {
   return (
-    <div>page</div>
-  )
-}
+    <div className="">
+      <h1 className="h2-bold text-dark100_light900">All Courses</h1>
+    </div>
+  );
+};
 
-export default page
+export default Home;
