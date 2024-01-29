@@ -12,7 +12,7 @@ const page = async () => {
 
   const mongoUser = await getUserByID({ userId });
 
-  console.log(mongoUser);
+  // console.log(mongoUser);
 
   return (
     <div className="">
